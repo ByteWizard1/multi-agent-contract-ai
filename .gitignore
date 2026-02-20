@@ -1,0 +1,54 @@
+### Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+### Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+### Packaging / build
+build/
+dist/
+*.egg-info/
+
+### IDE / editor
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+### Logs
+logs/
+*.log
+
+### Environment / secrets
+.env
+.env.*
+.aws/
+
+### Coverage / testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+### Python type checkers
+.mypy_cache/
+.ruff_cache/
+
+### Docker
+*.pid
+
+### Data / artifacts (keep tracked samples as needed)
+server/ingestion/ingested_preview.json
+server/ingestion/*.tmp
+
+### Frontend
+frontend/node_modules/
+frontend/dist/
+
+
+
